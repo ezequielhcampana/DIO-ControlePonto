@@ -20,6 +20,7 @@ public class NivelAcesso {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String descricao;
 
 }

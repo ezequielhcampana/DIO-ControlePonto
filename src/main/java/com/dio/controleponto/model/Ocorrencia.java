@@ -20,6 +20,7 @@ public class Ocorrencia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
     private String nome;
     private String descricao;
 
