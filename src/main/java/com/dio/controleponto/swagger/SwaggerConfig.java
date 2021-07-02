@@ -42,11 +42,11 @@ public class SwaggerConfig {
     public ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("API-REST / Controle de Ponto")
-                .description("Digital Innovation One - Criado por: Prof. Rogério - Modificado por: Ezequiel H. Campana")
+                .description("DIO - Criado por: Rodolfo Gomes - Adaptado por: Ezequiel H. Campana")
                 .version("1.0.1")
                 .license("Apache License Version 2.0")
                 .licenseUrl("https://www.apache.org/licenses/LICENSE-2.0")
-                .contact(new Contact("DIO", "https://web.digitalinnovation.one", "contato@digitalinnovationone.com.br"))
+                .contact(new Contact("DIO", "https://github.com/ezequielhcampana/", "ezequiel.henrique@gmail.com"))
                 .build();
     }
 }
